@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>La Carta Secreta</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="particulas" id="particulas"></div>
+
+    <main class="contenedor">
+
+        <div class="corona">✦</div>
+
+        <h1>La Carta Secreta</h1>
+
+        <p class="subtitulo">
+            Hay algo especial esperando por ti...
+        </p>
+
+        <div class="sobre" id="sobre">
+
+            <div class="sello">
+                ♥
+            </div>
+
+            <div class="candado-icono" id="candadoIcono">
+                🔒
+            </div>
+
+        </div>
+
+        <section class="panel" id="panel">
+
+            <h2>🔐 Desbloquea la carta</h2>
+
+            <p class="instruccion">
+                Selecciona una ruedita y pulsa GIRAR
+                para cambiar su número.
+            </p>
+
+            <div class="ruedas" id="ruedas">
+
+                <button class="rueda seleccionada"
+                    data-indice="0"
+                    aria-label="Seleccionar primera ruedita">
+                    0
+                </button>
+
+                <button class="rueda"
+                    data-indice="1"
+                    aria-label="Seleccionar segunda ruedita">
+                    0
+                </button>
+
+                <button class="rueda"
+                    data-indice="2"
+                    aria-label="Seleccionar tercera ruedita">
+                    0
+                </button>
+
+                <button class="rueda"
+                    data-indice="3"
+                    aria-label="Seleccionar cuarta ruedita">
+                    0
+                </button>
+
+            </div>
+
+            <p class="seleccion">
+                Ruedita seleccionada:
+                <span id="numeroSeleccionado">1</span>
+            </p>
+
+            <div class="botones">
+
+                <button class="boton girar" id="girar">
+                    ↻ GIRAR
+                </button>
+
+                <button class="boton confirmar" id="confirmar">
+                    CONFIRMAR ♥
+                </button>
+
+            </div>
+
+            <p class="mensaje" id="mensaje" aria-live="polite">
+                El secreto está esperando...
+            </p>
+
+        </section>
+
+        <section class="carta oculto" id="carta">
+
+            <div class="decoracion">✦ ♥ ✦</div>
+
+            <h2>¡Lo lograste!</h2>
+
+            <p class="texto-carta">
+                Has desbloqueado mi pequeño secreto.
+                AMOR MIO
+                <br><br>
+
+                No sé ni por donde empezar a decirte lo mucho 
+                que te amo y lo mucho que te aprecio.Desde que
+                empezamos de 0 literalmente todo en mejor. Le
+                estas dando color a mis días,paz a mi mente y amor
+                 a mi corazón, de una manera que nunca habia sentido.
+                 Gracias por ser tú,por tu paciencia, por tu forma de quererme,
+                 por apoyarme y por hacer que todo se sienta más facil cuando
+                 estás conmigo. No sabes lo agradecida que estoy con la vida
+                 por haberte puesto en mi camino de nuevo.
+                 Sueño con seguir creando recuerdos contigo, espero algún día
+                 poder salir juntos, reirnos de tonterias, cumplir metas juntos
+                 y estar presentes en los momentos más importantes del otro.
+                 no sé que nos depare el futuro, pero sí se que mientras
+                 esté contigo quiero seguir dando lo mejor de mi.
+                 Te amo de aquí a la luna🌕 A pasitos de tortuga🐢
+                 De la luna🌕 Al sol☀️ en pasitos de caracol🐌
+                 Del sol☀️ al mar A pasitos de calamar🦑
+                 Y del mar Al desierto A pasitos de cangrejo🦀.
+            </p>
+
+            <div class="firma">
+                Con cariño ♥ Tu NOVIA
+            </div>
+
+        </section>
+
+        <footer>
+            UN SECRETO · UNA COMBINACIÓN · UNA CARTA
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
